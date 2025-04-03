@@ -2,4 +2,4 @@ name: Shipping CI
 on: [push, workflow_dispatch]
 jobs:
   common:
-    uses: vsaitejasgitorg/github-actions-reusable/.github/workflows/ci.yaml@main
+    uses: vsaitejasgitorg/github-actions-reusable/.github/workflows/ci-main.yaml@main
