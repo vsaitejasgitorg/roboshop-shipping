@@ -1,0 +1,10 @@
+name:  CI - Dev Branch
+on:
+  push:
+    branches:
+      - "RB**"
+jobs:
+  common:
+    uses: vsaitejasgitorg/github-actions-reusable/.github/workflows/ci-dev-br.yaml@main
+    with:
+      component_name: shipping
